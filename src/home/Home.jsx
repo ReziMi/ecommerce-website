@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import HomeCategory from "./HomeCategory";
 import CategoryShowCase from "./CategoryShowCase";
 import Register from "./Register";
+import LocationSpread from "./LocationSpread";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HomeCategory />
       <CategoryShowCase/>
       <Register/>
+      <LocationSpread/>
     </div>
   );
 }
