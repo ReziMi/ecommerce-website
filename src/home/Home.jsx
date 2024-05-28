@@ -4,6 +4,7 @@ import HomeCategory from "./HomeCategory";
 import CategoryShowCase from "./CategoryShowCase";
 import Register from "./Register";
 import LocationSpread from "./LocationSpread";
+import AboutUs from "./AboutUs";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <CategoryShowCase/>
       <Register/>
       <LocationSpread/>
+      <AboutUs/>
     </div>
   );
 }
