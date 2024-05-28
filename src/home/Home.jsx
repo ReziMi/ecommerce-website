@@ -6,6 +6,7 @@ import Register from "./Register";
 import LocationSpread from "./LocationSpread";
 import AboutUs from "./AboutUs";
 import AppSection from "./AppSection";
+import Sponsor from "./Sponsor";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <LocationSpread/>
       <AboutUs/>
       <AppSection/>
+      <Sponsor/>
     </div>
   );
 }
