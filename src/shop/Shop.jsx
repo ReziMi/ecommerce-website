@@ -8,6 +8,7 @@ import Pagination from "./Pagination";
 import Search from "./Search";
 import ShopCategory from "./ShopCategory";
 import PopularPost from "./PopularPost";
+import Tags from "./Tags";
 
 function Shop() {
   const [GridList, setGridList] = useState(true);
@@ -77,6 +78,7 @@ function Shop() {
                 <Search products={products} GridList={GridList}/>
                 <ShopCategory filterItem={filterItem} setItem={setProducts} menuItems={menuItems} setProducts={setProducts} selectedCategory={selectedCategory}/>
                 <PopularPost/>
+                <Tags/>
               </aside>
             </div>
           </div>
