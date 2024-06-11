@@ -1,5 +1,7 @@
+// ProductDisplay.jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 const desc =
   "Enjoy exceptional quality and all-day comfort with our versatile product, designed to meet your needs for any occasion, whether at home, work, or on the go.";
 
@@ -30,26 +32,32 @@ function ProductDisplay({ item }) {
     setQuantity(prequantity + 1);
   };
 
-  const handleSubmit = (e)=>{
+  const handleSubmit = (e) => {
     e.preventDefault();
     const product = {
-        id: id,
-        img: img,
-        name: name,
-        price: price,
-        quantity: prequantity,
-        size: size,
-        color: color,
-        coupon: coupon
+      id: id,
+      img: img,
+      name: name,
+      price: price,
+      quantity: prequantity,
+      size: size,
+      color: color,
+      coupon: coupon,
+    };
+    let existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    if (!Array.isArray(existingCart)) {
+      existingCart = []; // Initialize as an array if not already
     }
-    const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
 
-    const existingProductIndex = existingCart.findIndex((item)=>item.id===id);
+    const existingProductIndex = existingCart.findIndex(
+      (item) => item.id === id
+    );
 
-    if(existingProductIndex!==-1){
-        existingCart[existingProductIndex].quantity+=prequantity
-    }else{
-        existingCart.push(product);
+    if (existingProductIndex !== -1) {
+      existingCart[existingProductIndex].quantity += prequantity;
+    } else {
+      existingCart.push(product);
     }
 
     // update local storage
@@ -59,8 +67,8 @@ function ProductDisplay({ item }) {
     setQuantity(1);
     setSize("Select Size");
     setColor("Select Color");
-    setCoupon("")
-  }
+    setCoupon("");
+  };
 
   return (
     <div>
@@ -129,7 +137,11 @@ function ProductDisplay({ item }) {
 
           {/* coupon field */}
           <div className="discount-code mb-2">
-            <input type="text" placeholder="Enter Discount Code" onChange={(e)=>setCoupon(e.target.value)}/>
+            <input
+              type="text"
+              placeholder="Enter Discount Code"
+              onChange={(e) => setCoupon(e.target.value)}
+            />
           </div>
 
           {/* button section */}
