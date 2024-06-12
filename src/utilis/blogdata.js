@@ -2,14 +2,14 @@ const blogList = [
     {   id: 1,
         imgUrl: '/src/assets/images/blog/01.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'Business Ueporting Rouncil Them Could Plan.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Effective Business Strategies for Modern Enterprises',
+        desc: 'Explore how customized business strategies can enhance customer engagement and streamline operations.',
+        commentCount: '5',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'John Smith',
             },
             {
                 iconName: 'icofont-calendar',
@@ -21,14 +21,14 @@ const blogList = [
         id: 2,
         imgUrl: '/src/assets/images/blog/02.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'Financial Reporting Qouncil What Could More.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
+        title: 'Navigating Financial Reporting with Confidence',
+        desc: 'Learn the best practices for financial reporting and how to effectively communicate financial data.',
         commentCount: '3',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Maria Garcia',
             },
             {
                 iconName: 'icofont-calendar',
@@ -40,14 +40,14 @@ const blogList = [
         id: 3,
         imgUrl: '/src/assets/images/blog/03.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'Consulting Reporting Qounc Arei Could More.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Consulting Insights for Business Growth',
+        desc: 'Discover how consulting services can drive business growth and improve overall performance.',
+        commentCount: '7',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Revaz Mikadze',
             },
             {
                 iconName: 'icofont-calendar',
@@ -59,14 +59,14 @@ const blogList = [
         id: 4,
         imgUrl: '/src/assets/images/blog/04.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'Strategic Social Media and of visual design.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Harnessing Social Media for Strategic Advantage',
+        desc: 'Understand the impact of social media on business strategy and visual design.',
+        commentCount: '4',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Elena Rossi',
             },
             {
                 iconName: 'icofont-calendar',
@@ -78,14 +78,14 @@ const blogList = [
         id: 5,
         imgUrl: '/src/assets/images/blog/05.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'Find the Right Path for your Group Course online.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Choosing the Right Online Course for Your Group',
+        desc: 'Find out how to select the best online course for group learning and professional development.',
+        commentCount: '6',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Pierre Dubois',
             },
             {
                 iconName: 'icofont-calendar',
@@ -97,14 +97,14 @@ const blogList = [
         id: 6,
         imgUrl: '/src/assets/images/blog/06.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'Learn by doing with Real World Projects other countries.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Learning Through Real-World Projects',
+        desc: 'Embrace project-based learning to gain practical skills and real-world experience.',
+        commentCount: '2',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Emma Johansson',
             },
             {
                 iconName: 'icofont-calendar',
@@ -116,14 +116,14 @@ const blogList = [
         id: 7,
         imgUrl: '/src/assets/images/blog/07.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'The Importance Of Intrinsic for Students.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'The Value of Intrinsic Motivation in Education',
+        desc: 'Explore the importance of intrinsic motivation and its impact on student success.',
+        commentCount: '8',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Carlos Santos',
             },
             {
                 iconName: 'icofont-calendar',
@@ -135,14 +135,14 @@ const blogList = [
         id: 8,
         imgUrl: '/src/assets/images/blog/08.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'A Better Alternative To Grading Student Writing.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Innovative Alternatives to Traditional Grading',
+        desc: 'Discover new methods for evaluating student writing beyond traditional grading systems.',
+        commentCount: '1',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Sophie Turner',
             },
             {
                 iconName: 'icofont-calendar',
@@ -154,14 +154,14 @@ const blogList = [
         id: 9,
         imgUrl: '/src/assets/images/blog/09.jpg',
         imgAlt: 'Blog Thumb',
-        title: 'The Challenge Global Learning In Public Education.',
-        desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        title: 'Addressing Global Learning Challenges',
+        desc: 'Examine the challenges of global learning in public education and potential solutions.',
+        commentCount: '5',
         btnText: 'Read More',
         metaList: [
             {
                 iconName: 'icofont-ui-user',
-                text: 'Rajib Raj',
+                text: 'Jakub Nowak',
             },
             {
                 iconName: 'icofont-calendar',
