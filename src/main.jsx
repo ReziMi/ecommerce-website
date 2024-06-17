@@ -10,9 +10,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 // fonts and icons
-import "././assets/css/icofont.min.css";
-import "././assets/css/animate.css";
-import "././assets/css/style.min.css";
+import "./assets/css/icofont.min.css";
+import "./assets/css/animate.css";
+import "./assets/css/style.min.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Blog from "./blog/Blog.jsx";
@@ -25,6 +25,7 @@ import Contact from "./contact/Contact.jsx";
 import { AuthProvider } from "./contexts/AuthProvider.jsx";
 import PrivateRoute from "./PrivateRoute/PrivateRoute.jsx";
 import Login from "./components/Login.jsx";
+import Signup from "./components/Signup.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
       { path: "/blog", element: <Blog /> },
       { path: "/blog/:id", element: <SingleBlog /> },
       { path: "/shop", element: <Shop /> },
-      { path: "shop/:id", element: <SingleProduct /> },
+      { path: "/shop/:id", element: <SingleProduct /> },
       {
         path: "/cart-page",
         element: (
@@ -49,8 +50,11 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "login", element: <Login/>
-  }
+    path: "/login", element: <Login />
+  },
+  {
+    path: "/sign-up", element: <Signup />
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
